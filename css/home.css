@@ -1,0 +1,112 @@
+<style type="text/css">
+
+body { 	margin:0px; background:#DD9303;}
+.headerT{
+	background:url("../images/header1.png") no-repeat;
+
+}
+.headerTD {
+	font-weight:normal;
+	font-family:verdana;
+	font-size:12px;
+	color:#ffff20;
+	text-align:right;
+	padding-right:35px;
+}
+
+.nlSub {
+	font-weight:bold;
+	font-family:verdana;
+	font-size:12px;
+	color:#ffff20;
+	text-align:center;
+}
+
+.serSite {
+	font-weight:bold;
+	font-family:verdana;
+	font-size:11px;
+	color:#960000;
+	text-align:left;
+}
+
+a {
+	font-weight:bold;
+	font-family:verdana;
+	/*color:#E4FF00;*/
+	color:#960000;
+	font-size:11px;
+	text-decoration:none;
+
+}
+
+
+a:hover {
+	font-weight:bold;
+	font-family:verdana;
+	color:#ffff20;
+	font-size:11px;
+	text-decoration:underline;
+	cursor:hand;
+}
+
+.link {
+	background:url("
+") no-repeat;
+	text-align:center;
+	background-position: center bottom;
+	padding-bottom:2px;
+}
+
+
+.menuTopTD {
+	background:url("../images/menu_top.png") no-repeat;
+}
+
+.mainTopTD {
+	background:url("../images/main_top.png") no-repeat;
+}
+
+.mainBackT {
+	background:url("../images/logo6.png") no-repeat;
+}
+
+hr {
+	color:yellow;
+	background-color:yellow;
+	height:4px;
+	border:1px solid red;
+}
+
+.logoTD{
+	background:url("../images/logo1.png") no-repeat;
+	background-position: center bottom;
+
+}
+
+.titleTD {
+	background:url("../images/title.png") no-repeat;
+	background-position: center bottom;
+}
+
+.hzDTD {
+	background:url("../images/hor_sep2.png") repeat-x;
+	background-position: left bottom;
+	padding-bottom:5px;
+	*margin-bottom:-10px;
+}
+
+.hzDTDBDR {
+	background:url("../images/hor_sep_bdr1.png") repeat-x; height:9px;
+	margin:0px 17px -5px 17px;
+	*margin:0px 17px -15px 17px;
+}
+
+.vzDTD {
+	background:url("../images/ver_sep4.png") repeat-y;
+}
+.vzDTD1 {
+	background:url("../images/ver_sep5.png") repeat-y;
+	background-position:right;
+}
+</style>

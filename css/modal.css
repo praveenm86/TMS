@@ -1,0 +1,96 @@
+<style type="text/css">
+body
+{
+    margin: 0px;
+}
+#modalPage
+{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 0px; left: 0px;
+}
+.modalBackground
+{
+    filter: Alpha(Opacity=40); -moz-opacity:0.4; opacity: 0.4;
+    width: 100%; height: 100%; background-color: #999999;
+    position: absolute;
+    z-index: 500;
+    top: 0px; left: 0px;
+}
+.modalContainer
+{
+    position: absolute;
+    width: 400px;
+    left: 500px;
+    top: 250px;
+    z-index: 750;
+}
+.modal
+{
+
+    background-color: #FFF1E7;
+    border: solid 2px #FF6C00; position: relative;
+    top: -150px;
+    left: -150px;
+    z-index: 1000;
+    width: 410px;
+    padding: 0px;
+}
+.modalTop
+{
+    width: 385px; 
+    !width: 385px !important;
+    padding-left: 4px;
+    color: #ffffff;
+    text-align: left;
+    float:left;
+}
+.modalTop a, .modalTop a:visited
+{
+    color: #ccc;
+}
+.modalBody
+{
+    padding: 10px;
+    font-weight:normal;
+    font-family:verdana;
+    color:#CC3300;
+    font-size:11px;
+    text-decoration:none;
+}
+
+.modalBody a{
+	color:#FF33CC;
+	font-weight:normal;
+}
+
+.modalBody a:hover {
+	color:#990066;
+}
+
+.header{
+	font-weight:bold;
+	font-family:verdana;
+	font-size:14px;
+	color:#710101;
+}
+
+.subHeader {
+	font-weight:bold;
+	font-family:verdana;
+	font-size:12px;
+	color:#710101;
+}
+
+.details {
+	font-weight:normal;
+	font-family:verdana;
+	font-size:12px;
+	color:#710101;
+}
+
+
+
+</style>
