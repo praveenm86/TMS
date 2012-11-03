@@ -8,12 +8,12 @@
 
 <tr>
 	<td style="height:50px">Username</td>
-	<td><input type='text' id='username'></td>
+	<td><input type='text' id='username' name="username"></td>
 </tr>
 
 <tr>
 	<td style="height:50px">Password</td>
-	<td><input type='password' id='username'></td>
+	<td><input type='password' id='password' name="passwd"></td>
 
 </tr>			
 
@@ -24,10 +24,24 @@
 </tr>			
 
 <tr>
-	<td style="height:50px"><a href="">New User</a></td>
-	<td><a href="">Forgot Password</a></td>
+	<td style="height:50px"><a href="register.html">New User</a></td>
+	<td><a href="javascript:checkUsernameNMailPass()">Forgot Password</a></td>
 </tr>
 
 </tbody>
 </table>
 </html>
+<script>
+	function checkUsernameNMailPass()
+	{
+		username=document.getElementById('username').value
+		if (username=="")
+		{
+			alert("Enter your email id");
+		}
+		else
+		{
+			alert("Password sent successfully to your mail id");
+		}
+	}
+</script>
